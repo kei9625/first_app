@@ -18,5 +18,6 @@ module FirstApp
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    config.web_console.whitelisted_ips = ['127.0.0.0/1']
   end
 end
